@@ -11,3 +11,41 @@ h1 {
 }
 
 
+#listaUsuarios{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+#listaUsuarios li{
+  margin-bottom: 25px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.datos{
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.foto{
+  width: 40%;
+}
+
+.foto img{
+  margin-left: 40%;
+}
+
+.info{
+  display: flex;
+}
+
+li p{
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
